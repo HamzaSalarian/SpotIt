@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/arrow"
+        android:id="@+id/arrow_back"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"></ImageView>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Makenna Dias"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#818181"
+        android:id="@+id/name"
+        android:layout_toRightOf="@+id/arrow_back"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"></TextView>
+
+    <ImageButton
+        android:id="@+id/a_call"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/a_call"
+        android:background="@color/white"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"></ImageButton>
+
+    <ImageButton
+        android:background="@color/white"
+        android:id="@+id/v_call"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/v_call"
+        android:layout_toRightOf="@+id/a_call"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"></ImageButton>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#818181"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="20dp"></View>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/person1"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:id="@+id/chat_message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_dark"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="150dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toRightOf="@id/chat_message1"
+        android:layout_marginTop="160dp"></TextView>
+
+    <TextView
+        android:id="@+id/chat_mymessage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_orange"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message1"
+        android:layout_marginLeft="60dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toLeftOf="@id/chat_mymessage1"
+        android:layout_below="@id/chat_message1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="-60dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/person1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message2"/>
+    <TextView
+        android:id="@+id/chat_message3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_dark"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message2"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toRightOf="@id/chat_message1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/chat_message2"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/person1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_mymessage1"/>
+    <TextView
+        android:id="@+id/chat_message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_dark"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_mymessage1"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toRightOf="@id/chat_message1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/chat_mymessage1"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/person1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message3"/>
+    <TextView
+        android:id="@+id/chat_message4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_dark"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message3"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toRightOf="@id/chat_message1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/chat_message3"></TextView>
+
+    <TextView
+        android:id="@+id/chat_mymessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_orange"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message4"
+        android:layout_marginLeft="60dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toLeftOf="@id/chat_mymessage1"
+        android:layout_below="@id/chat_message4"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="-60dp"></TextView>
+
+    <TextView
+        android:id="@+id/chat_mymessage3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_orange"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_mymessage2"
+        android:layout_marginLeft="60dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toLeftOf="@id/chat_mymessage1"
+        android:layout_below="@id/chat_mymessage2"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="-60dp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/person1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_mymessage3"/>
+    <TextView
+        android:id="@+id/chat_message5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_dark"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_mymessage3"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="#818181"
+        android:layout_toRightOf="@id/chat_message1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/chat_mymessage3"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/person1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message5"/>
+    <TextView
+        android:id="@+id/chat_message6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="20dp"
+        android:background="@drawable/rounder_corners_dark"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/chat_message5"></TextView>
+</RelativeLayout>

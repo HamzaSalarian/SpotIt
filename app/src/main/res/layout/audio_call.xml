@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfbfbf">
+
+    <TextView
+        android:id="@+id/caller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Caller Name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:58"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/caller"/>
+    <View
+        android:id="@+id/holder_icons"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#fff"
+        android:layout_marginTop="500dp"/>
+
+    <ImageView
+        android:id="@+id/mic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/mic"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="50dp"/>
+    <ImageView
+        android:id="@+id/speaker"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/speaker"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/mic"/>
+    <ImageView
+        android:id="@+id/hold"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hold"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/speaker"/>
+    <ImageView
+        android:id="@+id/end"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/end"
+        android:layout_below="@+id/speaker"
+        android:layout_alignRight="@+id/speaker"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/mic"/>
+</RelativeLayout>

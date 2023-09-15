@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFBFBF">
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/cancel"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp">
+
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/brightness"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/brightness"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/cross">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/timer"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/clock"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_toRightOf="@+id/brightness">
+
+    </ImageView>
+
+    <View
+        android:id="@+id/holder_icons"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#fff"
+        android:layout_marginTop="550dp"/>
+
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gallery"
+        android:background="@drawable/circle"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="50dp"/>
+
+    <ImageView
+        android:id="@+id/click"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@+id/gallery"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="590dp"
+        android:src="@drawable/click"/>
+    <ImageView
+        android:id="@+id/refresh"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/click"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/refresh"/>
+
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photo"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:background="#00FFFFFF"
+        android:layout_toRightOf="@+id/gallery"
+        android:layout_below="@+id/gallery"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:text="Video"
+        android:textAllCaps="false"
+        android:background="@drawable/rounder_corners_orange"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_below="@id/click"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
